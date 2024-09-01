@@ -1,5 +1,1 @@
-pikachu
-charmander
-mew
-goku
-squirtle
+charizard

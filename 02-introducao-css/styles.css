@@ -1,0 +1,22 @@
+.div-nba {
+  background-color: cornflowerblue;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-interna {
+  text-align: center;
+  width: 50%;
+  /* margin: auto; */
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.div-interna p {
+  color: white;
+  font-size: 50px;
+}

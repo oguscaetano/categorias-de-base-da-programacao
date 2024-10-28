@@ -18,6 +18,12 @@ module.exports = {
       ingredients: ['1 hambúrguer', 'queijo emental', 'tomate', 'alface americana', 'cebola', 'molho tasty', 'pão com gergelim'],
       calories: 944,
     },
+    {
+      name: 'Big Tasty 2',
+      price: 39.90,
+      ingredients: ['1 hambúrguer', 'queijo emental', 'tomate', 'alface americana', 'cebola', 'molho tasty', 'pão com gergelim'],
+      calories: 944,
+    },
   ],
   
   acompanhamentos: [

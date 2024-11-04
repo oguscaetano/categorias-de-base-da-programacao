@@ -1,0 +1,28 @@
+body {
+  background-color: #aeaeae;
+}
+
+h1 {
+  background-color: greenyellow;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  padding: 50px;
+  width: 80%;
+  margin: auto;
+}
+
+img {
+  width: 300px;
+}
+
+.jogador {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin-top: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

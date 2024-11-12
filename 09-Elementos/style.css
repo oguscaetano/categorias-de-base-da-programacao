@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(184, 184, 184);
+}
+
+select {
+  margin: 20px 0;
+}
+
+.estilizaNomeCarro {
+  color: crimson;
+  font-size: 12px;
+}

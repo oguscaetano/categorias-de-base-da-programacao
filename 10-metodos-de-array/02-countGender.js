@@ -1,0 +1,1 @@
+// 2 - Contar a quantidade de personagens através do gênero

@@ -5,3 +5,9 @@ const data = require('./data.json');
 // }
 
 data.characters.forEach((character) => console.log(character.name));
+
+// foreach não retorna NADA!!!!
+// sempre vai retornar undefined
+
+
+// map() retorna um novo array transformado

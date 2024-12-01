@@ -1,0 +1,23 @@
+body {
+  background-color: darkgray;
+}
+
+img {
+  height: 300px;
+  transition: transform 0.5s;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+section {
+  overflow: hidden;
+}
+
+#btn-vai {
+  background-color: chartreuse;
+  border-radius: 5px;
+  padding: 10px 50px;
+  margin-top: 20px;
+}

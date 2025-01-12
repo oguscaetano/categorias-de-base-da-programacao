@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Pokédex</title>
+</head>
+
+<body>
+  <div class="pokedex">
+    <h1>Pokédex do Amor ❤️</h1>
+
+    <form action="" method="get">
+      <div class="barra-pesquisa">
+        <input type="text" id="pesquisa" placeholder="Digite o nome ou número do Pokémon...">
+      </div>
+
+      <button type="submit" class="botao-busca">Buscar</button>
+    </form>
+
+    <div class="carregando" id="carregando">
+      <div class="pokebola"></div>
+    </div>
+
+    <div class="info-pokemon" id="info-pokemon">
+      <h2 id="nome-pokemon"></h2>
+      <div class="container-imagem">
+        <button class="botao-navegacao" id="pokemon-anterior">&#8249;</button>
+
+        <img id="imagem-pokemon" alt="Imagem do Pokémon">
+
+        <button class="botao-navegacao" id="pokemon-proximo">&#8250;</button>
+      </div>
+
+      <p><strong>Altura:</strong> <span id="altura-pokemon"></span></p>
+      <p><strong>Peso:</strong> <span id="peso-pokemon"></span></p>
+      <p><strong>Tipo(s):</strong> <span id="tipo-pokemon"></span></p>
+
+      <div class="status" id="status">
+        <div class="barra-status">
+          <span>HP</span>
+          <div class="barra">
+            <div id="status-hp"><span></span></div>
+          </div>
+        </div>
+        <div class="barra-status">
+          <span>Ataque</span>
+          <div class="barra">
+            <div id="status-ataque"><span></span></div>
+          </div>
+        </div>
+        <div class="barra-status">
+          <span>Defesa</span>
+          <div class="barra">
+            <div id="status-defesa"><span></span></div>
+          </div>
+        </div>
+        <div class="barra-status">
+          <span>Ataque Especial</span>
+          <div class="barra">
+            <div id="status-ataque-especial"><span></span></div>
+          </div>
+        </div>
+        <div class="barra-status">
+          <span>Defesa Especial</span>
+          <div class="barra">
+            <div id="status-defesa-especial"><span></span></div>
+          </div>
+        </div>
+        <div class="barra-status">
+          <span>Velocidade</span>
+          <div class="barra">
+            <div id="status-velocidade"><span></span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="evolucoes" id="evolucoes">
+        <h3>Evoluções</h3>
+        <div id="lista-evolucoes"></div>
+      </div>
+    </div>
+    <p class="erro" id="mensagem-erro"></p>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
